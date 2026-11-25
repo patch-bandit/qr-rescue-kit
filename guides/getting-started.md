@@ -4,10 +4,10 @@ Every platform guide in this kit asks for a file from your `dist` folder (such a
 
 ## Step 1: Download the Bandit Codes kit
 
-1. Open the Bandit Codes page on GitHub in your browser (public repository link to be added at release, `needs check`).
+1. Open the Bandit Codes kit on GitHub in your browser: https://github.com/patch-bandit/qr-rescue-kit
 2. Click the green **Code** button near the top right, then click **Download ZIP** (`needs check`).
 3. Find the downloaded `.zip` file on your computer (usually in your **Downloads** folder) and unzip it.
-4. Open the unzipped folder (its name may end in `-main`, such as `bandit-codes-main`).
+4. Open the unzipped folder (its name may end in `-main`, such as `qr-rescue-kit-main`).
    - **Using the WordPress plugin?** You already have what you need inside `wordpress/bandit-codes`. You can jump straight to the [WordPress guide](wordpress.md) and skip Steps 2 and 3 unless you have dozens of codes to import from a spreadsheet.
 
 ## Step 2: Create your redirect files
