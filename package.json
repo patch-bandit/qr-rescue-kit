@@ -1,0 +1,42 @@
+{
+  "name": "bandit-codes",
+  "version": "1.0.0",
+  "description": "Self-owned QR code redirects for your own website, with no third-party dependency.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Patch Bandit",
+  "files": [
+    "cli/bin/",
+    "cli/lib/",
+    "loader/bandit-codes.js",
+    "loader/bandit-codes.min.js",
+    "loader/bandit-codes-fetch.js",
+    "loader/bandit-codes-fetch.min.js",
+    "guides/",
+    "skill/",
+    "wordpress/bandit-codes/",
+    "wordpress/README.md",
+    "LICENSE",
+    "README.md",
+    "REUSE.md"
+  ],
+  "bin": {
+    "bandit-codes": "./cli/bin/bandit-codes.mjs"
+  },
+  "scripts": {
+    "test": "node --test loader/loader.test.mjs cli/test/cli.test.mjs wordpress/test/plugin.test.mjs",
+    "test:loader": "node --test loader/loader.test.mjs",
+    "test:cli": "node --test cli/test/cli.test.mjs",
+    "test:wordpress": "node --test wordpress/test/plugin.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "qr-code",
+    "redirects",
+    "self-hosted",
+    "static-site",
+    "wordpress"
+  ]
+}
